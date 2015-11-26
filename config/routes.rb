@@ -54,6 +54,7 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 
-  match 'upload/json' => 'upload#json', :via => :post
+  match 'upload/upload1' => 'upload#upload1', :via => :post
+  match 'upload/upload2' => 'upload#upload2', :via => :post
 
 end
